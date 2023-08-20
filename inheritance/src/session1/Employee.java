@@ -19,7 +19,7 @@ public class Employee extends Person {
 	@Override
 	public String toString() {
 		return "Employee [id=" + id + ", salary=" + salary + ", Name " + getName() + ",\n Age\t" + getAge()
-				+ ", City " + getCity() + "]";
+				+ "]";
 	}
 	
 	
